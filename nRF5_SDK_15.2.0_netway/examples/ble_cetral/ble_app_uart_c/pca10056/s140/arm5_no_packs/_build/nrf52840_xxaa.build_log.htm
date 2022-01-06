@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: River River, 123, LIC=GMZLQ-NBWN3-CX4U6-D2IDG-F08QG-39N70
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  F:\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+F:\Nordic\nRF5_SDK_15.2.0\examples\ble_central\ble_app_uart_c\pca10056\s140\arm5_no_packs\ble_app_uart_c_pca10056_s140.uvprojx
+Project File Date:  09/08/2018
+
+<h2>Output:</h2>
+Build target 'nrf52840_xxaa'
+compiling main.c...
+..\..\..\main.c(205): warning:  #177-D: function "ble_nus_chars_received_uart_print" was declared but never referenced
+  static void ble_nus_chars_received_uart_print(uint8_t * p_data, uint16_t data_len)
+..\..\..\main.c: 1 warning, 0 errors
+linking...
+Program Size: Code=23072 RO-data=3900 RW-data=992 ZI-data=12648  
+FromELF: creating hex file...
+".\_build\nrf52840_xxaa.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.17.0.pack
+                NordicSemiconductor::Device:Startup:8.17.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 8.17.0
+
+<h2>Collection of Component include folders:</h2>
+  F:\Nordic\nRF5_SDK_15.2.0\examples\ble_central\ble_app_uart_c\pca10056\s140\arm5_no_packs\RTE
+  F:\Keil5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  F:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.17.0\Device\Include
+  F:\Keil5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: NordicSemiconductor::Device:Startup:8.17.0
+      Include file:  Device\Include\system_nrf52840.h
+      Source file:   Device\Source\system_nrf52840.c
+      Source file:   Device\Source\arm\arm_startup_nrf52840.s
+</pre>
+</body>
+</html>

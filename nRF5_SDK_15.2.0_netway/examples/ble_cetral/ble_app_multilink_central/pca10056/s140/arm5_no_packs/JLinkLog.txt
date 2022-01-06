@@ -1,0 +1,80 @@
+T3C08 000:218.182   SEGGER J-Link V6.80 Log File
+T3C08 000:218.402   DLL Compiled: May 25 2020 17:04:25
+T3C08 000:218.411   Logging started @ 2021-03-28 16:42
+T3C08 000:218.422 JLINK_SetWarnOutHandler(...)
+T3C08 000:218.432 - 0.013ms
+T3C08 000:218.443 JLINK_OpenEx(...)
+T3C08 000:220.572   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T3C08 000:223.563   Hardware: V7.00
+T3C08 000:223.609   S/N: 20090928
+T3C08 000:223.629   OEM: SEGGER
+T3C08 000:223.645   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull
+T3C08 000:225.132   TELNET listener socket opened on port 19021
+T3C08 000:225.277   WEBSRV Starting webserver
+T3C08 000:225.525   WEBSRV Webserver running on local port 19080
+T3C08 000:225.549 - 7.112ms returns "O.K."
+T3C08 000:225.581 JLINK_SetErrorOutHandler(...)
+T3C08 000:225.596 - 0.019ms
+T3C08 000:225.620 JLINK_ExecCommand("ProjectFile = "F:\Nordic\MyNordic\nRF5_SDK_15.2.0_netway\examples\ble_cetral\ble_app_multilink_central\pca10056\s140\arm5_no_packs\JLinkSettings.ini"", ...). 
+T3C08 000:241.394   Ref file found at: F:\Keil5\ARM\Segger\JLinkDevices.ref
+T3C08 000:241.603   XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml
+T3C08 000:242.763   C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T3C08 000:316.410 - 90.814ms returns 0x00
+T3C08 000:316.491 JLINK_ExecCommand("Device = nRF52840_xxAA", ...). 
+T3C08 000:317.021   Device "NRF52840_XXAA" selected.
+T3C08 000:318.841 - 2.359ms returns 0x00
+T3C08 000:318.886 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T3C08 000:318.913 - 0.015ms returns 0x01
+T3C08 000:318.931 JLINK_GetHardwareVersion()
+T3C08 000:318.943 - 0.018ms returns 0x11170
+T3C08 000:318.968 JLINK_GetDLLVersion()  returns 68000
+T3C08 000:318.985 JLINK_GetFirmwareString(...)
+T3C08 000:318.998 - 0.018ms
+T3C08 000:319.023 JLINK_GetDLLVersion()  returns 68000
+T3C08 000:319.038 JLINK_GetCompileDateTime()
+T3C08 000:319.049 - 0.017ms
+T3C08 000:319.067 JLINK_GetFirmwareString(...)
+T3C08 000:319.080 - 0.019ms
+T3C08 000:319.097 JLINK_GetHardwareVersion()
+T3C08 000:319.110 - 0.019ms returns 0x11170
+T3C08 000:319.139 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T3C08 000:320.339 - 1.222ms returns 0x00
+T3C08 000:320.381 JLINK_SetSpeed(20000)
+T3C08 000:320.815 - 0.455ms
+T3C08 000:321.198 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T3C08 000:321.210 - 0.016ms returns JLINKARM_RESET_TYPE_NORMAL
+T3C08 000:321.219 JLINK_Reset()
+T3C08 000:321.603   InitTarget() start
+T3C08 000:321.618    J-Link Script File: Executing InitTarget()
+T3C08 000:326.053   InitTarget() end
+T3C08 000:648.722   Found SW-DP with ID 0x2BA01477
+T3C08 000:650.700   SWD speed too high. Reduced from 4000 kHz to 1518 kHz for stability
+T3C08 000:651.345   Failed to power up DAP
+T3C08 000:812.602   InitTarget() start
+T3C08 000:812.672    J-Link Script File: Executing InitTarget()
+T3C08 000:818.347   InitTarget() end
+T3C08 001:034.733   Found SW-DP with ID 0x2BA01477
+T3C08 001:036.962   SWD speed too high. Reduced from 1455 kHz to 736 kHz for stability
+T3C08 001:037.607   Failed to power up DAP
+T3C08 001:138.809 JLINK_GetId()
+T3C08 001:139.361   InitTarget() start
+T3C08 001:139.398    J-Link Script File: Executing InitTarget()
+T3C08 001:146.318   InitTarget() end
+T3C08 001:316.116   InitTarget() start
+T3C08 001:316.187    J-Link Script File: Executing InitTarget()
+T3C08 001:323.359   InitTarget() end
+T3C08 001:432.627 - 293.882ms   returns 0x00000000
+T3C08 001:432.741 JLINK_GetId()
+T3C08 001:433.405   InitTarget() start
+T3C08 001:433.466    J-Link Script File: Executing InitTarget()
+T3C08 001:440.621   InitTarget() end
+T3C08 001:610.333   InitTarget() start
+T3C08 001:610.400    J-Link Script File: Executing InitTarget()
+T3C08 001:617.461   InitTarget() end
+T3C08 001:725.446 - 292.740ms   returns 0x00000000
+T3C08 001:731.019 JLINK_GetFirmwareString(...)
+T3C08 001:731.054 - 0.041ms
+T3C08 005:773.297 JLINK_Close()
+T3C08 005:786.530 - 13.264ms
+T3C08 005:786.569   
+T3C08 005:786.579   Closed
